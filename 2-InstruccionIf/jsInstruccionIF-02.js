@@ -10,3 +10,5 @@ function mostrar()
 	}
 
 }
+
+/*Mas optimo es poner > 17 */
