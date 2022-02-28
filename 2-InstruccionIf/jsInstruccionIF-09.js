@@ -1,6 +1,10 @@
+/*Al presionar el Botón, mostrar un número Random del 1 al 10 inclusive
+Emanuel Gonzalez Gartland
+If 09
+*/
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
-
-}//FIN DE LA FUNCIÓN
+	let numeroRandom;
+	numeroRandom = Math.floor(Math.random() * 11)
+	alert("El numero es:" + " " + numeroRandom);
+}
